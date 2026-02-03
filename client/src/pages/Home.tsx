@@ -53,51 +53,51 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <section className="relative py-20 md:py-32 overflow-hidden">
-        <div className="container">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Left: Text Content */}
-            <div className="fade-in-up space-y-6">
-              <div className="space-y-3">
-                <h1 className="font-display text-5xl md:text-6xl font-bold leading-tight">
-                  Building AI Solutions That Deliver Results
-                </h1>
-                <p className="text-xl text-muted-foreground">
-                  Enterprise AI consulting focused on measurable outcomes—3x to 5x returns in year one.
-                </p>
-              </div>
+      {/* Hero Section - Full Width with Large Image */}
+      <section className="relative overflow-hidden">
+        <div className="relative min-h-screen flex items-center">
+          {/* Background Image with Overlay */}
+          <div className="absolute inset-0 z-0">
+            <img
+              src="/CXTHeroImage.png"
+              alt="AI-Native Problem Solving"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-background/40"></div>
+          </div>
 
-              <div className="bg-accent/10 border border-accent/20 rounded-lg p-4 md:p-6">
-                <p className="text-sm md:text-base font-medium text-foreground">
-                  <span className="text-accent font-bold">Our Promise:</span> We take on projects with clear business value. No experiments. No vanity metrics. Just solutions that make economic sense from day one.
-                </p>
-              </div>
+          {/* Content */}
+          <div className="container relative z-10">
+            <div className="max-w-2xl">
+              <div className="fade-in-up space-y-6">
+                <div className="space-y-4">
+                  <h1 className="font-display text-6xl md:text-7xl lg:text-8xl font-bold leading-tight text-foreground">
+                    Building AI Solutions That Deliver Results
+                  </h1>
+                  <p className="text-xl md:text-2xl text-muted-foreground">
+                    Enterprise AI consulting focused on measurable outcomes—3x to 5x returns in year one.
+                  </p>
+                </div>
 
-              <div className="flex gap-4 pt-4">
-                <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                  Schedule a Discovery Call
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-                <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/5">
-                  Learn More
-                </Button>
-              </div>
-            </div>
+                <div className="bg-accent/10 backdrop-blur-sm border border-accent/30 rounded-lg p-6 md:p-8">
+                  <p className="text-base md:text-lg font-medium text-foreground">
+                    <span className="text-accent font-bold">Our Promise:</span> We take on projects with clear business value. No experiments. No vanity metrics. Just solutions that make economic sense from day one.
+                  </p>
+                </div>
 
-            {/* Right: Hero Image */}
-            <div className="fade-in-up relative">
-              <img
-                src="/CXTHeroImage.png"
-                alt="AI-Native Problem Solving"
-                className="w-full h-auto rounded-lg shadow-2xl"
-              />
+                <div className="flex gap-4 pt-6">
+                  <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground text-base px-8 py-6">
+                    Schedule a Discovery Call
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </Button>
+                  <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/5 text-base px-8 py-6">
+                    Learn More
+                  </Button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
-        {/* Decorative accent line */}
-        <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-accent/0 via-accent/50 to-accent/0"></div>
       </section>
 
       {/* Three Pillars / Services Preview */}

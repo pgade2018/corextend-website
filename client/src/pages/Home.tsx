@@ -211,6 +211,47 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Data Engineering Services */}
+      <section className="py-20 md:py-32">
+        <div className="container">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Left: Image */}
+            <div className="fade-in-up">
+              <img
+                src="/data-engineering-services.png"
+                alt="Data Engineering Services"
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
+            </div>
+
+            {/* Right: Content */}
+            <div className="fade-in-up space-y-6">
+              <h2 className="font-display text-4xl md:text-5xl font-bold">Data Engineering Services</h2>
+              <p className="text-lg text-muted-foreground">
+                Infrastructure that turns raw data into reliable fuel for AI systems—scalable, maintainable, production-grade.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>ETL pipelines that handle complex data transformations</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Scalable data infrastructure for enterprise workloads</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Data quality and governance frameworks</span>
+                </li>
+              </ul>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                Learn About Data Engineering
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Custom Software & Product Management */}
       <section className="py-20 md:py-32">
         <div className="container">

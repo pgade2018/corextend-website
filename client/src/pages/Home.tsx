@@ -245,6 +245,43 @@ export default function Home() {
               />
             </div>
           </div>
+
+          {/* Technology Function as a Service */}
+          <div className="grid md:grid-cols-2 gap-12 items-center mt-20">
+            {/* Left: Image */}
+            <div className="fade-in-up">
+              <img
+                src="/tech-function-service.png"
+                alt="Technology Function as a Service"
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
+            </div>
+
+            {/* Right: Content */}
+            <div className="fade-in-up space-y-6">
+              <h2 className="font-display text-4xl md:text-5xl font-bold">Technology Function as a Service Access</h2>
+              <p className="text-lg text-muted-foreground">
+                Senior technical leadership without the overhead of full-time hires. We embed with your team to build capabilities while delivering projects.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Senior technical leadership embedded with your team</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Capability building while delivering projects</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Day-to-day IT setup (email, website, laptops, etc.)</span>
+                </li>
+              </ul>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                Learn About Tech Function Access
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
 

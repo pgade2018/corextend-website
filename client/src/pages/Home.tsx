@@ -170,6 +170,47 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Applied AI Engineering */}
+      <section className="py-20 md:py-32 bg-primary/5">
+        <div className="container">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Left: Content */}
+            <div className="fade-in-up space-y-6">
+              <h2 className="font-display text-4xl md:text-5xl font-bold">Applied AI Engineering</h2>
+              <p className="text-lg text-muted-foreground">
+                Practical AI implementation—automating decisions, surfacing insights, and scaling operations that currently require manual effort.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Decision automation for faster, consistent outcomes</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Insight surfacing from complex data patterns</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Operational scaling without proportional headcount growth</span>
+                </li>
+              </ul>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                Explore Applied AI Engineering
+              </Button>
+            </div>
+
+            {/* Right: Image */}
+            <div className="fade-in-up">
+              <img
+                src="/applied-ai-engineering.png"
+                alt="Applied AI Engineering"
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Custom Software & Product Management */}
       <section className="py-20 md:py-32">
         <div className="container">

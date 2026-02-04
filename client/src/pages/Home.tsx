@@ -43,7 +43,9 @@ export default function Home() {
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container flex items-center justify-between h-16">
-          <div className="font-display font-bold text-xl text-primary">CoreXtend</div>
+          <a href="#" className="flex items-center">
+            <img src="/corextend-logo.jpg" alt="CoreXtend" className="h-12 w-auto" />
+          </a>
           <div className="hidden md:flex gap-8">
             <a href="#services" className="text-sm hover:text-accent transition-colors">Services</a>
             <a href="#approach" className="text-sm hover:text-accent transition-colors">Approach</a>

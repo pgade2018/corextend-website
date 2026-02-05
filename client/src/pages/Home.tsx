@@ -73,17 +73,18 @@ export default function Home() {
             <div className="max-w-2xl">
               <div className="fade-in-up space-y-6">
                 <div className="space-y-4">
-                  <h1 className="font-display text-6xl md:text-7xl lg:text-8xl font-bold leading-tight text-foreground">
-                    Building AI Solutions That Deliver Results
-                  </h1>
-                  <p className="text-xl md:text-2xl text-muted-foreground">
-                    Enterprise AI consulting focused on measurable outcomes—3x to 5x returns in year one.
-                  </p>
+                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight">
+                      UNLEASH YOUR CORE WITH AI
+                    </h1>
+                    <p className="mt-6 text-lg sm:text-xl md:text-2xl lg:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                      Focus on your mission. We extend your scale.<br className="sm:hidden" />
+                      Deploy intelligent, modular systems that bridge the gap between abstract strategy and significant scale.
+                    </p>
                 </div>
 
-                <div className="bg-accent/10 backdrop-blur-sm border border-accent/30 rounded-lg p-6 md:p-8">
-                  <p className="text-base md:text-lg font-medium text-foreground">
-                    <span className="text-accent font-bold">Our Promise:</span> We take on projects with clear business value. No experiments. No vanity metrics. Just solutions that make economic sense from day one.
+                <div className="mt-10 max-w-2xl mx-auto">
+                  <p className="text-xl md:text-2xl font-semibold">
+                    <span className="text-red-600">Our Promise:</span> We take on projects that 3-5x their investment in year one. If the business case isn't crystal clear, we'll tell you. No fluff, no false starts—just results that matter.
                   </p>
                 </div>
 

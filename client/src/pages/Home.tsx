@@ -171,20 +171,20 @@ export default function Home() {
       </section>
 
       {/* Applied AI Engineering */}
-      <section className="py-20 md:py-32 bg-primary/5">
+      <section className="py-20 md:py-32">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Left: Image */}
-            <div className="fade-in-up">
+            <div className="fade-in-up order-1 md:order-1">
               <img
-                src="/applied-ai-engineering.png"
+                src="/AppliedAIEngineering.png"
                 alt="Applied AI Engineering"
                 className="w-full h-auto rounded-lg shadow-xl"
               />
             </div>
 
             {/* Right: Content */}
-            <div className="fade-in-up space-y-6">
+            <div className="fade-in-up space-y-6 order-2 md:order-2">
               <h2 className="font-display text-4xl md:text-5xl font-bold">Applied AI Engineering</h2>
               <p className="text-lg text-muted-foreground">
                 Practical AI implementation—automating decisions, surfacing insights, and scaling operations that currently require manual effort.
@@ -216,7 +216,7 @@ export default function Home() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
-            <div className="fade-in-up space-y-6">
+            <div className="fade-in-up space-y-6 order-2 md:order-1">
               <h2 className="font-display text-4xl md:text-5xl font-bold">Data Engineering Services</h2>
               <p className="text-lg text-muted-foreground">
                 Infrastructure that turns raw data into reliable fuel for AI systems—scalable, maintainable, production-grade.
@@ -241,9 +241,9 @@ export default function Home() {
             </div>
 
             {/* Right: Image */}
-            <div className="fade-in-up">
+            <div className="fade-in-up order-1 md:order-2">
               <img
-                src="/data-engineering-services.png"
+                src="/DataEngineeringServices.png"
                 alt="Data Engineering Services"
                 className="w-full h-auto rounded-lg shadow-xl"
               />
@@ -257,7 +257,7 @@ export default function Home() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
             {/* Left: Content */}
-            <div className="fade-in-up space-y-6">
+            <div className="fade-in-up space-y-6 order-1 md:order-1">
               <h2 className="font-display text-4xl md:text-5xl font-bold">Custom Software Development</h2>
               <p className="text-lg text-muted-foreground">
                 Purpose-built solutions designed around your workflows, not generic platforms that force compromise.
@@ -282,7 +282,7 @@ export default function Home() {
             </div>
 
             {/* Right: Image */}
-            <div className="fade-in-up">
+            <div className="fade-in-up order-2 md:order-2">
               <img
                 src="/CustomSoftwareDevelopment.png"
                 alt="Custom Software Development"
@@ -331,7 +331,7 @@ export default function Home() {
           {/* Technology Function as a Service */}
           <div className="grid md:grid-cols-2 gap-12 items-center mt-20">
             {/* Left: Content */}
-            <div className="fade-in-up space-y-6">
+            <div className="fade-in-up space-y-6 order-2 md:order-1">
               <h2 className="font-display text-4xl md:text-5xl font-bold">Technology Function as a Service Access</h2>
               <p className="text-lg text-muted-foreground">
                 Senior technical leadership without the overhead of full-time hires. We embed with your team to build capabilities while delivering projects.
@@ -356,9 +356,9 @@ export default function Home() {
             </div>
 
             {/* Right: Image */}
-            <div className="fade-in-up">
+            <div className="fade-in-up order-1 md:order-2">
               <img
-                src="/tech-function-service.png"
+                src="/Techfunctionasaservice.png"
                 alt="Technology Function as a Service"
                 className="w-full h-auto rounded-lg shadow-xl"
               />

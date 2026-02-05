@@ -174,7 +174,16 @@ export default function Home() {
       <section className="py-20 md:py-32 bg-primary/5">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Left: Content */}
+            {/* Left: Image */}
+            <div className="fade-in-up">
+              <img
+                src="/applied-ai-engineering.png"
+                alt="Applied AI Engineering"
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
+            </div>
+
+            {/* Right: Content */}
             <div className="fade-in-up space-y-6">
               <h2 className="font-display text-4xl md:text-5xl font-bold">Applied AI Engineering</h2>
               <p className="text-lg text-muted-foreground">
@@ -198,15 +207,6 @@ export default function Home() {
                 Explore Applied AI Engineering
               </Button>
             </div>
-
-            {/* Right: Image */}
-            <div className="fade-in-up">
-              <img
-                src="/applied-ai-engineering.png"
-                alt="Applied AI Engineering"
-                className="w-full h-auto rounded-lg shadow-xl"
-              />
-            </div>
           </div>
         </div>
       </section>
@@ -215,16 +215,7 @@ export default function Home() {
       <section className="py-20 md:py-32">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Left: Image */}
-            <div className="fade-in-up">
-              <img
-                src="/data-engineering-services.png"
-                alt="Data Engineering Services"
-                className="w-full h-auto rounded-lg shadow-xl"
-              />
-            </div>
-
-            {/* Right: Content */}
+            {/* Left: Content */}
             <div className="fade-in-up space-y-6">
               <h2 className="font-display text-4xl md:text-5xl font-bold">Data Engineering Services</h2>
               <p className="text-lg text-muted-foreground">
@@ -248,6 +239,15 @@ export default function Home() {
                 Learn About Data Engineering
               </Button>
             </div>
+
+            {/* Right: Image */}
+            <div className="fade-in-up">
+              <img
+                src="/data-engineering-services.png"
+                alt="Data Engineering Services"
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -256,16 +256,7 @@ export default function Home() {
       <section className="py-20 md:py-32">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-            {/* Left: Image */}
-            <div className="fade-in-up">
-              <img
-                src="/CustomSoftwareDevelopment.png"
-                alt="Custom Software Development"
-                className="w-full h-auto rounded-lg shadow-xl"
-              />
-            </div>
-
-            {/* Right: Content */}
+            {/* Left: Content */}
             <div className="fade-in-up space-y-6">
               <h2 className="font-display text-4xl md:text-5xl font-bold">Custom Software Development</h2>
               <p className="text-lg text-muted-foreground">
@@ -288,6 +279,15 @@ export default function Home() {
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
                 Explore Custom Development
               </Button>
+            </div>
+
+            {/* Right: Image */}
+            <div className="fade-in-up">
+              <img
+                src="/CustomSoftwareDevelopment.png"
+                alt="Custom Software Development"
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
             </div>
           </div>
 
@@ -330,16 +330,7 @@ export default function Home() {
 
           {/* Technology Function as a Service */}
           <div className="grid md:grid-cols-2 gap-12 items-center mt-20">
-            {/* Left: Image */}
-            <div className="fade-in-up">
-              <img
-                src="/tech-function-service.png"
-                alt="Technology Function as a Service"
-                className="w-full h-auto rounded-lg shadow-xl"
-              />
-            </div>
-
-            {/* Right: Content */}
+            {/* Left: Content */}
             <div className="fade-in-up space-y-6">
               <h2 className="font-display text-4xl md:text-5xl font-bold">Technology Function as a Service Access</h2>
               <p className="text-lg text-muted-foreground">
@@ -362,6 +353,15 @@ export default function Home() {
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
                 Learn About Tech Function Access
               </Button>
+            </div>
+
+            {/* Right: Image */}
+            <div className="fade-in-up">
+              <img
+                src="/tech-function-service.png"
+                alt="Technology Function as a Service"
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
             </div>
           </div>
         </div>

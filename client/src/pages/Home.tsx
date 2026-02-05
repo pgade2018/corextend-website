@@ -171,58 +171,203 @@ export default function Home() {
         </div>
       </section>
 
-      // ... imports ...
-      import { OfferingSection } from "@/components/OfferingSection";
-      
-      // Data array (easy to maintain)
-      const detailedOfferings = [
-        {
-          title: "Applied AI Engineering",
-          description: "Practical AI implementation—automating decisions, surfacing insights, and scaling operations that currently require manual effort.",
-          bullets: [
-            "End-to-end AI system development",
-            "Production-grade model deployment",
-            "Integration with existing workflows",
-            "Continuous monitoring and improvement",
-          ],
-          imageSrc: "/AppliedAIEngineering.png",
-        },
-        {
-          title: "Data Engineering",
-          description: "Infrastructure that turns raw data into reliable fuel for AI systems—scalable, maintainable, production-grade.",
-          bullets: [ /* your bullets */ ],
-          imageSrc: "/DataEngineeringServices.png",
-        },
-        {
-          title: "Custom Software Development",
-          description: "Your bullets here...",
-          bullets: [ /* ... */ ],
-          imageSrc: "/CustomSoftwareDevelopment.png",
-        },
-        {
-          title: "Product Management as a Function",
-          description: "...",
-          bullets: [ /* ... */ ],
-          imageSrc: "/ProductManagementasaFunction.png",
-        },
-        {
-          title: "Technology Function as a Service Access",
-          description: "...",
-          bullets: [ /* ... */ ],
-          imageSrc: "/Techfunctionasaservice.png",
-        },
-      ];
-      
-      // In your return JSX, after the core offerings grid:
-      <div className="space-y-0"> {/* no extra space between sections */}
-        {detailedOfferings.map((offering, index) => (
-          <OfferingSection
-            key={offering.title}
-            {...offering}
-            isReversed={index % 2 === 1} // odd indexes reversed → image right
-          />
-        ))}
-      </div>
+      {/* Applied AI Engineering */}
+      <section className="py-20 md:py-32">
+        <div className="container">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Left: Image */}
+            <div className="fade-in-up order-1 md:order-1">
+              <img
+                src="/AppliedAIEngineering.png"
+                alt="Applied AI Engineering"
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
+            </div>
+
+            {/* Right: Content */}
+            <div className="fade-in-up space-y-6 order-2 md:order-2">
+              <h2 className="font-display text-4xl md:text-5xl font-bold">Applied AI Engineering</h2>
+              <p className="text-lg text-muted-foreground">
+                Practical AI implementation—automating decisions, surfacing insights, and scaling operations that currently require manual effort.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Decision automation for faster, consistent outcomes</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Insight surfacing from complex data patterns</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Operational scaling without proportional headcount growth</span>
+                </li>
+              </ul>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                Explore Applied AI Engineering
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Data Engineering Services */}
+      <section className="py-20 md:py-32">
+        <div className="container">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Left: Content */}
+            <div className="fade-in-up space-y-6 order-2 md:order-1">
+              <h2 className="font-display text-4xl md:text-5xl font-bold">Data Engineering Services</h2>
+              <p className="text-lg text-muted-foreground">
+                Infrastructure that turns raw data into reliable fuel for AI systems—scalable, maintainable, production-grade.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>ETL pipelines that handle complex data transformations</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Scalable data infrastructure for enterprise workloads</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Data quality and governance frameworks</span>
+                </li>
+              </ul>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                Learn About Data Engineering
+              </Button>
+            </div>
+
+            {/* Right: Image */}
+            <div className="fade-in-up order-1 md:order-2">
+              <img
+                src="/DataEngineeringServices.png"
+                alt="Data Engineering Services"
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Custom Software & Product Management */}
+      <section className="py-20 md:py-32">
+        <div className="container">
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+            {/* Left: Content */}
+            <div className="fade-in-up space-y-6 order-1 md:order-1">
+              <h2 className="font-display text-4xl md:text-5xl font-bold">Custom Software Development</h2>
+              <p className="text-lg text-muted-foreground">
+                Purpose-built solutions designed around your workflows, not generic platforms that force compromise.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Tailored to your specific business needs</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Built with modern, scalable architecture</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Full ownership and control of your codebase</span>
+                </li>
+              </ul>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                Explore Custom Development
+              </Button>
+            </div>
+
+            {/* Right: Image */}
+            <div className="fade-in-up order-2 md:order-2">
+              <img
+                src="/CustomSoftwareDevelopment.png"
+                alt="Custom Software Development"
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
+            </div>
+          </div>
+
+          {/* Product Management */}
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Left: Content */}
+            <div className="fade-in-up space-y-6 order-2 md:order-1">
+              <h2 className="font-display text-4xl md:text-5xl font-bold">Product Management as a Function</h2>
+              <p className="text-lg text-muted-foreground">
+                Strategic product thinking that bridges business goals and technical execution—from roadmap to release.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Strategic roadmap development</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>User-centric design and execution</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Agile delivery with measurable outcomes</span>
+                </li>
+              </ul>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                Learn About Product Management
+              </Button>
+            </div>
+
+            {/* Right: Image */}
+            <div className="fade-in-up order-1 md:order-2">
+              <img
+                src="/ProductManagementasaFunction.png"
+                alt="Product Management as a Function"
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
+            </div>
+          </div>
+
+          {/* Technology Function as a Service */}
+          <div className="grid md:grid-cols-2 gap-12 items-center mt-20">
+            {/* Left: Content */}
+            <div className="fade-in-up space-y-6 order-2 md:order-1">
+              <h2 className="font-display text-4xl md:text-5xl font-bold">Technology Function as a Service Access</h2>
+              <p className="text-lg text-muted-foreground">
+                Senior technical leadership without the overhead of full-time hires. We embed with your team to build capabilities while delivering projects.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Senior technical leadership embedded with your team</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Capability building while delivering projects</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Day-to-day IT setup (email, website, laptops, etc.)</span>
+                </li>
+              </ul>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                Learn About Tech Function Access
+              </Button>
+            </div>
+
+            {/* Right: Image */}
+            <div className="fade-in-up order-1 md:order-2">
+              <img
+                src="/Techfunctionasaservice.png"
+                alt="Technology Function as a Service"
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       
       {/* Our Approach */}
       <section id="approach" className="py-20 md:py-32 bg-primary/5">

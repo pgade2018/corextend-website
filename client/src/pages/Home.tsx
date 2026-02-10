@@ -89,10 +89,12 @@ export default function Home() {
                 </div>
 
                 <div className="flex gap-4 pt-6">
-                  <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground text-base px-8 py-6">
-                    Schedule a Discovery Call
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
+                  <a href="https://calendly.com/praveen845/30min" target="_blank" rel="noopener noreferrer">
+                    <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground text-base px-8 py-6">
+                      Schedule a Discovery Call
+                      <ArrowRight className="ml-2 h-5 w-5" />
+                    </Button>
+                  </a>
                   <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/5 text-base px-8 py-6">
                     Learn More
                   </Button>
@@ -556,7 +558,7 @@ export default function Home() {
                   onChange={handleFormChange}
                   required
                   className="w-full px-4 py-2 rounded-lg bg-primary-foreground/20 border border-primary-foreground/30 text-primary-foreground placeholder-primary-foreground/50 focus:outline-none focus:border-primary-foreground/60"
-                  placeholder="Your name"
+                  placeholder="Your full name"
                 />
               </div>
               <div>
@@ -568,7 +570,7 @@ export default function Home() {
                   onChange={handleFormChange}
                   required
                   className="w-full px-4 py-2 rounded-lg bg-primary-foreground/20 border border-primary-foreground/30 text-primary-foreground placeholder-primary-foreground/50 focus:outline-none focus:border-primary-foreground/60"
-                  placeholder="Your company"
+                  placeholder="Your company name"
                 />
               </div>
             </div>
@@ -582,12 +584,12 @@ export default function Home() {
                 onChange={handleFormChange}
                 required
                 className="w-full px-4 py-2 rounded-lg bg-primary-foreground/20 border border-primary-foreground/30 text-primary-foreground placeholder-primary-foreground/50 focus:outline-none focus:border-primary-foreground/60"
-                placeholder="your@email.com"
+                placeholder="Your official email id"
               />
             </div>
 
             <div>
-              <label className="block text-sm font-medium mb-2">Brief Description of Challenge</label>
+              <label className="block text-sm font-medium mb-2">Requirement</label>
               <textarea
                 name="challenge"
                 value={formData.challenge}
@@ -595,12 +597,12 @@ export default function Home() {
                 required
                 rows={4}
                 className="w-full px-4 py-2 rounded-lg bg-primary-foreground/20 border border-primary-foreground/30 text-primary-foreground placeholder-primary-foreground/50 focus:outline-none focus:border-primary-foreground/60 resize-none"
-                placeholder="Tell us about your challenge..."
+                placeholder="Tell us about your requirement..."
               ></textarea>
             </div>
 
             <div>
-              <label className="block text-sm font-medium mb-2">Estimated Timeline</label>
+              <label className="block text-sm font-medium mb-2">Timelines for solution to be implemented</label>
               <select
                 name="timeline"
                 value={formData.timeline}
@@ -609,10 +611,9 @@ export default function Home() {
                 className="w-full px-4 py-2 rounded-lg bg-primary-foreground/20 border border-primary-foreground/30 text-primary-foreground focus:outline-none focus:border-primary-foreground/60"
               >
                 <option value="" disabled>Select a timeline</option>
-                <option value="immediate">Immediate (within 1 month)</option>
-                <option value="quarter">This quarter</option>
-                <option value="year">This year</option>
-                <option value="exploring">Just exploring</option>
+                <option value="immediate">Immediate</option>
+                <option value="discovering">No idea - still discovering</option>
+                <option value="month">In next 1 month</option>
               </select>
             </div>
 

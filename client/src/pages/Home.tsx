@@ -76,8 +76,9 @@ export default function Home() {
                   <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-foreground">
                     UNLEASH YOUR CORE WITH AI
                   </h1>
-                  <p className="text-xl md:text-2xl text-muted-foreground">
-                    Enterprise AI consulting focused on measurable outcomes—3x to 5x returns in year one.
+                  <p className="text-lg md:text-xl text-black">
+                    Focus on your mission. We extend your scale.<br className="hidden sm:block" />
+                    Deploy intelligent, modular systems that bridge the gap between abstract strategy and significant scale.
                   </p>
                 </div>
 

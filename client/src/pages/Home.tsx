@@ -608,12 +608,12 @@ export default function Home() {
                 value={formData.timeline}
                 onChange={handleFormChange}
                 required
-                className="w-full px-4 py-2 rounded-lg bg-primary-foreground/20 border border-primary-foreground/30 text-primary-foreground focus:outline-none focus:border-primary-foreground/60"
+                className="w-full px-4 py-2 rounded-lg bg-white border border-primary-foreground/30 text-black focus:outline-none focus:border-primary-foreground/60"
               >
                 <option value="" disabled>Select a timeline</option>
                 <option value="immediate">Immediate</option>
-                <option value="discovering">No idea - still discovering</option>
                 <option value="month">In next 1 month</option>
+                <option value="discovering">No idea - still discovering</option>
               </select>
             </div>
 

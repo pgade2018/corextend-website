@@ -73,13 +73,12 @@ export default function Home() {
             <div className="max-w-2xl">
               <div className="fade-in-up space-y-6">
                 <div className="space-y-4">
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight">
-                      UNLEASH YOUR CORE WITH AI
-                    </h1>
-                    <p className="mt-6 text-lg sm:text-xl md:text-2xl lg:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                      Focus on your mission. We extend your scale.<br className="sm:hidden" />
-                      Deploy intelligent, modular systems that bridge the gap between abstract strategy and significant scale.
-                    </p>
+                  <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-foreground">
+                    UNLEASH YOUR CORE WITH AI
+                  </h1>
+                  <p className="text-xl md:text-2xl text-muted-foreground">
+                    Enterprise AI consulting focused on measurable outcomes—3x to 5x returns in year one.
+                  </p>
                 </div>
 
                 <div className="mt-10 max-w-2xl mx-auto">
@@ -178,7 +177,7 @@ export default function Home() {
             {/* Left: Image */}
             <div className="fade-in-up order-1 md:order-1">
               <img
-                src="/AppliedAIEngineering.png"
+                src="/applied-ai-engineering.png"
                 alt="Applied AI Engineering"
                 className="w-full h-auto rounded-lg shadow-xl"
               />
@@ -244,7 +243,7 @@ export default function Home() {
             {/* Right: Image */}
             <div className="fade-in-up order-1 md:order-2">
               <img
-                src="/DataEngineeringServices.png"
+                src="/data-engineering-services.png"
                 alt="Data Engineering Services"
                 className="w-full h-auto rounded-lg shadow-xl"
               />
@@ -359,7 +358,7 @@ export default function Home() {
             {/* Right: Image */}
             <div className="fade-in-up order-1 md:order-2">
               <img
-                src="/Techfunctionasaservice.png"
+                src="/tech-function-service.png"
                 alt="Technology Function as a Service"
                 className="w-full h-auto rounded-lg shadow-xl"
               />

@@ -296,9 +296,18 @@ export default function Home() {
           </div>
 
           {/* Product Management */}
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            {/* Left: Content */}
-            <div className="fade-in-up space-y-6 order-2 md:order-1">
+          <div className="grid md:grid-cols-2 gap-8 items-center mt-16 mb-16">
+            {/* Left: Image */}
+            <div className="fade-in-up order-1 md:order-1">
+              <img
+                src="/ProductManagementasaFunction.png"
+                alt="Product Management as a Function"
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
+            </div>
+
+            {/* Right: Content */}
+            <div className="fade-in-up space-y-6 order-2 md:order-2">
               <h2 className="font-display text-3xl md:text-4xl font-bold">Product Management as a Function</h2>
               <p className="text-base text-muted-foreground">
                 Strategic product thinking that bridges business goals and technical execution—from roadmap to release.
@@ -320,15 +329,6 @@ export default function Home() {
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
                 Learn About Product Management
               </Button>
-            </div>
-
-            {/* Right: Image */}
-            <div className="fade-in-up order-1 md:order-2">
-              <img
-                src="/ProductManagementasaFunction.png"
-                alt="Product Management as a Function"
-                className="w-full h-auto rounded-lg shadow-xl"
-              />
             </div>
           </div>
 

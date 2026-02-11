@@ -216,7 +216,7 @@ export default function Home() {
       </section>
 
       {/* Data Engineering Services */}
-      <section className="py-12 md:py-20">
+      <section className="py-12 md:py-12">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             {/* Left: Content */}
@@ -333,7 +333,7 @@ export default function Home() {
           </div>
 
           {/* Technology Function as a Service */}
-          <div className="grid md:grid-cols-2 gap-8 items-center mt-12">
+          <div className="grid md:grid-cols-2 gap-8 items-center mt-12 mb-12">
             {/* Left: Content */}
             <div className="fade-in-up space-y-6 order-2 md:order-1">
               <h2 className="font-display text-3xl md:text-4xl font-bold">Technology Function as a Service Access</h2>

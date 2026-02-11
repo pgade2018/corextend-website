@@ -179,7 +179,7 @@ export default function Home() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             {/* Left: Image */}
-            <div className="fade-in-up order-1 md:order-1">
+            <div className="fade-in-up order-2 md:order-1">
               <img
                 src="/applied-ai-engineering.png"
                 alt="Applied AI Engineering"
@@ -188,10 +188,10 @@ export default function Home() {
             </div>
 
             {/* Right: Content */}
-            <div className="fade-in-up space-y-6 order-2 md:order-2">
+            <div className="fade-in-up space-y-6 order-1 md:order-2">
               <h2 className="font-display text-3xl md:text-4xl font-bold">Applied AI Engineering</h2>
               <p className="text-base text-muted-foreground">
-                Practical AI implementation—automating decisions, surfacing insights, and scaling operations that currently require manual effort.
+                Practical AI implementation—automating decisions, surfacing insights, and scaling operations through agentic workflows and multi-agent orchestration that replace manual processes.
               </p>
               <ul className="space-y-2">
                 <li className="flex gap-3">
@@ -261,7 +261,7 @@ export default function Home() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             {/* Left: Image */}
-            <div className="fade-in-up order-1 md:order-1">
+            <div className="fade-in-up order-2 md:order-1">
               <img
                 src="/CustomSoftwareDevelopment.png"
                 alt="Custom Software Development"
@@ -270,7 +270,7 @@ export default function Home() {
             </div>
 
             {/* Right: Content */}
-            <div className="fade-in-up space-y-6 order-2 md:order-2">
+            <div className="fade-in-up space-y-6 order-1 md:order-2">
               <h2 className="font-display text-3xl md:text-4xl font-bold">Custom Software Development</h2>
               <p className="text-base text-muted-foreground">
                 Purpose-built solutions designed around your workflows, not generic platforms that force compromise.
@@ -343,7 +343,7 @@ export default function Home() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             {/* Left: Image */}
-            <div className="fade-in-up order-1 md:order-1">
+            <div className="fade-in-up order-2 md:order-1">
               <img
                 src="/tech-function-service.png"
                 alt="Technology Function as a Service"
@@ -352,7 +352,7 @@ export default function Home() {
             </div>
 
             {/* Right: Content */}
-            <div className="fade-in-up space-y-6 order-2 md:order-2">
+            <div className="fade-in-up space-y-6 order-1 md:order-2">
               <h2 className="font-display text-3xl md:text-4xl font-bold">Technology Function as a Service</h2>
               <p className="text-base text-muted-foreground">
                 Senior technical leadership without the overhead of full-time hires. We embed with your team to build capabilities while delivering projects.

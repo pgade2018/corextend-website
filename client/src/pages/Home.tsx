@@ -47,10 +47,11 @@ export default function Home() {
             <img src="/corextend-logo.jpg" alt="CoreXtend" className="h-16 w-auto" />
           </a>
           <div className="hidden md:flex gap-8">
-            <a href="#services" className="text-sm hover:text-accent transition-colors">Services</a>
-            <a href="#approach" className="text-sm hover:text-accent transition-colors">Approach</a>
-            <a href="#why" className="text-sm hover:text-accent transition-colors">Why Us</a>
-            <a href="#faq" className="text-sm hover:text-accent transition-colors">FAQ</a>
+            <a href="#services" className="text-base font-bold hover:text-accent transition-colors">Services</a>
+            <a href="#approach" className="text-base font-bold hover:text-accent transition-colors">Approach</a>
+            <a href="#why" className="text-base font-bold hover:text-accent transition-colors">Why Us</a>
+            <a href="#faq" className="text-base font-bold hover:text-accent transition-colors">FAQ</a>
+            <a href="#contact" className="text-base font-bold hover:text-accent transition-colors">Contact Us</a>
           </div>
         </div>
       </nav>
@@ -73,7 +74,7 @@ export default function Home() {
             <div className="max-w-2xl">
               <div className="fade-in-up space-y-6">
                 <div className="space-y-4">
-                  <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-foreground">
+                  <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-foreground">
                     UNLEASH YOUR CORE WITH AI
                   </h1>
                   <p className="text-lg md:text-xl text-black">
@@ -106,16 +107,16 @@ export default function Home() {
       </section>
 
       {/* Three Pillars / Services Preview */}
-      <section id="services" className="py-20 md:py-32 bg-secondary/5">
+      <section id="services" className="py-12 md:py-20 bg-secondary/5">
         <div className="container">
-          <div className="text-center mb-16">
-            <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">Our Core Services</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <div className="text-center mb-10">
+            <h2 className="font-display text-3xl md:text-4xl font-bold mb-3">Our Core Services</h2>
+            <p className="text-base text-muted-foreground max-w-2xl mx-auto">
               Specialized expertise across the AI consulting spectrum
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-6">
             {/* Service 1: Applied AI Engineering */}
             <Card className="card-hover border-border hover:border-accent/50 bg-card">
               <CardHeader>
@@ -174,9 +175,9 @@ export default function Home() {
       </section>
 
       {/* Applied AI Engineering */}
-      <section className="py-20 md:py-32">
+      <section className="py-12 md:py-20">
         <div className="container">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
             {/* Left: Image */}
             <div className="fade-in-up order-1 md:order-1">
               <img
@@ -188,11 +189,11 @@ export default function Home() {
 
             {/* Right: Content */}
             <div className="fade-in-up space-y-6 order-2 md:order-2">
-              <h2 className="font-display text-4xl md:text-5xl font-bold">Applied AI Engineering</h2>
-              <p className="text-lg text-muted-foreground">
+              <h2 className="font-display text-3xl md:text-4xl font-bold">Applied AI Engineering</h2>
+              <p className="text-base text-muted-foreground">
                 Practical AI implementation—automating decisions, surfacing insights, and scaling operations that currently require manual effort.
               </p>
-              <ul className="space-y-3">
+              <ul className="space-y-2">
                 <li className="flex gap-3">
                   <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                   <span>Decision automation for faster, consistent outcomes</span>
@@ -215,16 +216,16 @@ export default function Home() {
       </section>
 
       {/* Data Engineering Services */}
-      <section className="py-20 md:py-32">
+      <section className="py-12 md:py-20">
         <div className="container">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
             {/* Left: Content */}
             <div className="fade-in-up space-y-6 order-2 md:order-1">
-              <h2 className="font-display text-4xl md:text-5xl font-bold">Data Engineering Services</h2>
-              <p className="text-lg text-muted-foreground">
+              <h2 className="font-display text-3xl md:text-4xl font-bold">Data Engineering Services</h2>
+              <p className="text-base text-muted-foreground">
                 Infrastructure that turns raw data into reliable fuel for AI systems—scalable, maintainable, production-grade.
               </p>
-              <ul className="space-y-3">
+              <ul className="space-y-2">
                 <li className="flex gap-3">
                   <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                   <span>ETL pipelines that handle complex data transformations</span>
@@ -256,16 +257,16 @@ export default function Home() {
       </section>
 
       {/* Custom Software & Product Management */}
-      <section className="py-20 md:py-32">
+      <section className="py-12 md:py-20">
         <div className="container">
-          <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+          <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
             {/* Left: Content */}
             <div className="fade-in-up space-y-6 order-1 md:order-1">
-              <h2 className="font-display text-4xl md:text-5xl font-bold">Custom Software Development</h2>
-              <p className="text-lg text-muted-foreground">
+              <h2 className="font-display text-3xl md:text-4xl font-bold">Custom Software Development</h2>
+              <p className="text-base text-muted-foreground">
                 Purpose-built solutions designed around your workflows, not generic platforms that force compromise.
               </p>
-              <ul className="space-y-3">
+              <ul className="space-y-2">
                 <li className="flex gap-3">
                   <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                   <span>Tailored to your specific business needs</span>
@@ -295,14 +296,14 @@ export default function Home() {
           </div>
 
           {/* Product Management */}
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
             {/* Left: Content */}
             <div className="fade-in-up space-y-6 order-2 md:order-1">
-              <h2 className="font-display text-4xl md:text-5xl font-bold">Product Management as a Function</h2>
-              <p className="text-lg text-muted-foreground">
+              <h2 className="font-display text-3xl md:text-4xl font-bold">Product Management as a Function</h2>
+              <p className="text-base text-muted-foreground">
                 Strategic product thinking that bridges business goals and technical execution—from roadmap to release.
               </p>
-              <ul className="space-y-3">
+              <ul className="space-y-2">
                 <li className="flex gap-3">
                   <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                   <span>Strategic roadmap development</span>
@@ -332,14 +333,14 @@ export default function Home() {
           </div>
 
           {/* Technology Function as a Service */}
-          <div className="grid md:grid-cols-2 gap-12 items-center mt-20">
+          <div className="grid md:grid-cols-2 gap-8 items-center mt-12">
             {/* Left: Content */}
             <div className="fade-in-up space-y-6 order-2 md:order-1">
-              <h2 className="font-display text-4xl md:text-5xl font-bold">Technology Function as a Service Access</h2>
-              <p className="text-lg text-muted-foreground">
+              <h2 className="font-display text-3xl md:text-4xl font-bold">Technology Function as a Service Access</h2>
+              <p className="text-base text-muted-foreground">
                 Senior technical leadership without the overhead of full-time hires. We embed with your team to build capabilities while delivering projects.
               </p>
-              <ul className="space-y-3">
+              <ul className="space-y-2">
                 <li className="flex gap-3">
                   <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                   <span>Senior technical leadership embedded with your team</span>
@@ -372,11 +373,11 @@ export default function Home() {
 
       
       {/* Our Approach */}
-      <section id="approach" className="py-20 md:py-32 bg-primary/5">
+      <section id="approach" className="py-12 md:py-20 bg-primary/5">
         <div className="container">
-          <div className="text-center mb-16">
-            <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">Our Approach</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <div className="text-center mb-10">
+            <h2 className="font-display text-3xl md:text-4xl font-bold mb-3">Our Approach</h2>
+            <p className="text-base text-muted-foreground max-w-2xl mx-auto">
               A proven methodology that delivers results in 3-6 months
             </p>
           </div>
@@ -538,7 +539,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 md:py-32 bg-primary text-primary-foreground">
+      <section id="contact" className="py-20 md:py-32 bg-primary text-primary-foreground">
         <div className="container max-w-2xl">
           <div className="text-center mb-12">
             <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">Ready to Discuss Your Project?</h2>

@@ -260,8 +260,17 @@ export default function Home() {
       <section className="py-12 md:py-20">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
-            {/* Left: Content */}
-            <div className="fade-in-up space-y-6 order-1 md:order-1">
+            {/* Left: Image */}
+            <div className="fade-in-up order-1 md:order-1">
+              <img
+                src="/CustomSoftwareDevelopment.png"
+                alt="Custom Software Development"
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
+            </div>
+
+            {/* Right: Content */}
+            <div className="fade-in-up space-y-6 order-2 md:order-2">
               <h2 className="font-display text-3xl md:text-4xl font-bold">Custom Software Development</h2>
               <p className="text-base text-muted-foreground">
                 Purpose-built solutions designed around your workflows, not generic platforms that force compromise.
@@ -283,15 +292,6 @@ export default function Home() {
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
                 Explore Custom Development
               </Button>
-            </div>
-
-            {/* Right: Image */}
-            <div className="fade-in-up order-2 md:order-2">
-              <img
-                src="/CustomSoftwareDevelopment.png"
-                alt="Custom Software Development"
-                className="w-full h-auto rounded-lg shadow-xl"
-              />
             </div>
           </div>
 

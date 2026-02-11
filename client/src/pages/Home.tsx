@@ -332,10 +332,19 @@ export default function Home() {
             </div>
           </div>
 
+            {/* Left: Image */}
+            <div className="fade-in-up order-1 md:order-1">
+              <img
+                src="/tech-function-service.png"
+                alt="Technology Function as a Service"
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
+            </div>
+          
           {/* Technology Function as a Service */}
           <div className="grid md:grid-cols-2 gap-8 items-center mt-12 mb-12">
-            {/* Left: Content */}
-            <div className="fade-in-up space-y-6 order-2 md:order-1">
+            {/* Right: Content */}
+            <div className="fade-in-up space-y-6 order-2 md:order-2">
               <h2 className="font-display text-3xl md:text-4xl font-bold">Technology Function as a Service Access</h2>
               <p className="text-base text-muted-foreground">
                 Senior technical leadership without the overhead of full-time hires. We embed with your team to build capabilities while delivering projects.
@@ -359,14 +368,6 @@ export default function Home() {
               </Button>
             </div>
 
-            {/* Right: Image */}
-            <div className="fade-in-up order-1 md:order-2">
-              <img
-                src="/tech-function-service.png"
-                alt="Technology Function as a Service"
-                className="w-full h-auto rounded-lg shadow-xl"
-              />
-            </div>
           </div>
         </div>
       </section>

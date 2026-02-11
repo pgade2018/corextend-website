@@ -338,85 +338,10 @@ export default function Home() {
         </div>
       </section>
 
-      
-      
-      
-      {/* Custom Software & Product Management */}
+      {/* Technology Function as a Service */}
       <section className="py-12 md:py-20">
         <div className="container">
-          <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
-            {/* Left: Image */}
-            <div className="fade-in-up order-1 md:order-1">
-              <img
-                src="/CustomSoftwareDevelopment.png"
-                alt="Custom Software Development"
-                className="w-full h-auto rounded-lg shadow-xl"
-              />
-            </div>
-
-            {/* Right: Content */}
-            <div className="fade-in-up space-y-6 order-2 md:order-2">
-              <h2 className="font-display text-3xl md:text-4xl font-bold">Custom Software Development</h2>
-              <p className="text-base text-muted-foreground">
-                Purpose-built solutions designed around your workflows, not generic platforms that force compromise.
-              </p>
-              <ul className="space-y-2">
-                <li className="flex gap-3">
-                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
-                  <span>Tailored to your specific business needs</span>
-                </li>
-                <li className="flex gap-3">
-                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
-                  <span>Built with modern, scalable architecture</span>
-                </li>
-                <li className="flex gap-3">
-                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
-                  <span>Full ownership and control of your codebase</span>
-                </li>
-              </ul>
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                Explore Custom Development
-              </Button>
-            </div>
-          </div>
-
-          {/* Product Management */}
-          <div className="grid md:grid-cols-2 gap-8 items-center mt-16 mb-16">
-            {/* Left: Content */}
-            <div className="fade-in-up space-y-6 order-1 md:order-1">
-              <h2 className="font-display text-3xl md:text-4xl font-bold">Product Management as a Function</h2>
-              <p className="text-base text-muted-foreground">
-                Strategic product thinking that bridges business goals and technical execution—from roadmap to release.
-              </p>
-              <ul className="space-y-2">
-                <li className="flex gap-3">
-                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
-                  <span>Strategic roadmap development</span>
-                </li>
-                <li className="flex gap-3">
-                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
-                  <span>User-centric design and execution</span>
-                </li>
-                <li className="flex gap-3">
-                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
-                  <span>Agile delivery with measurable outcomes</span>
-                </li>
-              </ul>
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                Learn About Product Management
-              </Button>
-            </div>
-
-            {/* Right: Image */}
-            <div className="fade-in-up order-2 md:order-2">
-              <img
-                src="/ProductManagementasaFunction.png"
-                alt="Product Management as a Function"
-                className="w-full h-auto rounded-lg shadow-xl"
-              />
-            </div>
-          </div>
-
+          <div className="grid md:grid-cols-2 gap-8 items-center">
             {/* Left: Image */}
             <div className="fade-in-up order-1 md:order-1">
               <img
@@ -425,12 +350,10 @@ export default function Home() {
                 className="w-full h-auto rounded-lg shadow-xl"
               />
             </div>
-          
-          {/* Technology Function as a Service */}
-          <div className="grid md:grid-cols-2 gap-8 items-center mt-12 mb-12">
+
             {/* Right: Content */}
             <div className="fade-in-up space-y-6 order-2 md:order-2">
-              <h2 className="font-display text-3xl md:text-4xl font-bold">Technology Function as a Service Access</h2>
+              <h2 className="font-display text-3xl md:text-4xl font-bold">Technology Function as a Service</h2>
               <p className="text-base text-muted-foreground">
                 Senior technical leadership without the overhead of full-time hires. We embed with your team to build capabilities while delivering projects.
               </p>
@@ -452,11 +375,9 @@ export default function Home() {
                 Learn About Tech Function Access
               </Button>
             </div>
-
           </div>
         </div>
       </section>
-
       
       {/* Our Approach */}
       <section id="approach" className="py-12 md:py-20 bg-primary/5">

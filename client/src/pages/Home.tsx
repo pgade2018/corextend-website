@@ -216,11 +216,11 @@ export default function Home() {
       </section>
 
       {/* Data Engineering Services */}
-      <section className="py-12 md:py-12">
+      <section className="py-12 md:py-20">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             {/* Left: Content */}
-            <div className="fade-in-up space-y-6 order-2 md:order-1">
+            <div className="fade-in-up space-y-6 order-1 md:order-1">
               <h2 className="font-display text-3xl md:text-4xl font-bold">Data Engineering Services</h2>
               <p className="text-base text-muted-foreground">
                 Infrastructure that turns raw data into reliable fuel for AI systems—scalable, maintainable, production-grade.
@@ -245,7 +245,7 @@ export default function Home() {
             </div>
 
             {/* Right: Image */}
-            <div className="fade-in-up order-1 md:order-2">
+            <div className="fade-in-up order-2 md:order-2">
               <img
                 src="/data-engineering-services.png"
                 alt="Data Engineering Services"
@@ -298,11 +298,11 @@ export default function Home() {
       </section>
       
       {/* Product Management as a Function */}
-      <section className="py-12 md:py-12">
+      <section className="py-12 md:py-20">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             {/* Left: Content */}
-            <div className="fade-in-up space-y-6 order-2 md:order-1">
+            <div className="fade-in-up space-y-6 order-1 md:order-1">
               <h2 className="font-display text-3xl md:text-4xl font-bold">Product Management as a Function</h2>
               <p className="text-base text-muted-foreground">
                 Strategic product thinking that bridges business goals and technical execution—from roadmap to release.
@@ -327,7 +327,7 @@ export default function Home() {
             </div>
 
             {/* Right: Image */}
-            <div className="fade-in-up order-1 md:order-2">
+            <div className="fade-in-up order-2 md:order-2">
               <img
                 src="/ProductManagementasaFunction.png"
                 alt="Product Management as a Function"
